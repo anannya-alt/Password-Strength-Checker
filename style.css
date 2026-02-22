@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.fill {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.Weak .fill {
+    background: red;
+}
+
+.Medium .fill {
+    background: orange;
+}
+
+.Strong .fill {
+    background: green;
+}
