@@ -23,3 +23,12 @@ Regular Expressions
 
 🎯 Objective
 To promote strong password practices and reduce cybersecurity risks like brute force attacks and unauthorized access.
+
+
+PasswordStrengthWeb/
+│
+├── app.py
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
